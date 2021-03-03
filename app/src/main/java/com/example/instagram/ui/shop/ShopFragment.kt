@@ -1,20 +1,20 @@
-package com.example.instagram.ui.home
+package com.example.instagram.ui.shop
 
 import android.os.Bundle
+import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.fragment.app.Fragment
-import com.example.instagram.databinding.FragmentHomeBinding
+import com.example.instagram.databinding.FragmentShopBinding
 
-class HomeFragment : Fragment() {
+class ShopFragment : Fragment() {
 
-    private var _binding: FragmentHomeBinding? = null
+    private var _binding: FragmentShopBinding? = null
     private val binding
         get() = _binding!!
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        _binding = FragmentHomeBinding.inflate(inflater, container, false);
+        _binding = FragmentShopBinding.inflate(inflater, container, false)
         return binding.root
     }
 
